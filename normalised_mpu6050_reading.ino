@@ -83,14 +83,7 @@ void loop()
   
   Vector normAccel = mpu.readNormalizeAccel();
   Vector normGyro = mpu.readNormalizeGyro();
-  //
-  //  Serial.print(" Xraw = ");
-  //  Serial.print(rawAccel.XAxis);
-  //  Serial.print(" Yraw = ");
-  //  Serial.print(rawAccel.YAxis);
-  //  Serial.print(" Zraw = ");
 
-  //  Serial.println(rawAccel.ZAxis);
   Serial.print(" Xnorm = ");
   Serial.print(normAccel.XAxis);
   Serial.print(" Ynorm = ");
