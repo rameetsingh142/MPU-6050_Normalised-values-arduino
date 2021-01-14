@@ -66,6 +66,7 @@ void checkSettings()
   Serial.print(mpu.getAccelOffsetY());
   Serial.print(" / ");
   Serial.println(mpu.getAccelOffsetZ());
+   Serial.print(" / ");
   Serial.print(" * Gyroscope offsets: ");
   Serial.print(mpu.getGyroOffsetX());
   Serial.print(" / ");
